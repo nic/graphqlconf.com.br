@@ -1,0 +1,130 @@
+$font-main: 'Play';
+$cor-principal: #e535ab;
+$cor-sec: #a219c4;
+$grad1: #e535ab;
+$grad2: #a219c4;
+$grad3: #574bfd;
+$grad4: #a4dfbc;
+$fundo: white;
+$logo-height: 100vh;
+$menu-top-height: 70px;
+$footer-height: 40px;
+$cor-text: #2E2E2E;
+$gradiente: linear-gradient( to right, $grad1, $grad2, $grad3, $grad4 );
+$gradiente1: linear-gradient( to right, $grad4, $grad1, $grad2, $grad3 );
+$gradiente2: linear-gradient( to right, $grad3, $grad4, $grad1, $grad2 );
+$gradiente3: linear-gradient( to right, $grad2, $grad3, $grad4, $grad1 );
+
+$shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+
+*{
+    box-sizing: border-box;
+    
+}
+    
+::-webkit-scrollbar { 
+        display: none;
+      }
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: $font-main;
+    color: $cor-sec;
+}
+
+.app {
+    color: $cor-text;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 
+        $logo-height
+        1fr
+        $footer-height;
+        grid-template-areas: 
+            "logo"
+            //"menu"
+            "content"
+            "palestrante"
+            "footer";
+            height: 100vh;
+            background-color: $fundo;
+}
+
+header.logo {
+    grid-area: logo;
+}
+
+aside.menu-area {
+    grid-area: menu;
+}
+
+main.content {
+    grid-area: content;
+}
+
+div.palestrante {
+    grid-area: palestrante;
+}
+
+footer.footer {
+    grid-area: footer;
+}
+
+.app {
+    grid-template-rows:
+        $logo-height
+        $menu-top-height
+        1fr
+        $footer-height;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "logo"
+    "menu"
+    "content"
+    "palestrante"
+    "footer";
+}
+
+footer.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    background-color: $fundo;
+    box-shadow: $shadow;
+}
+
+main > div {
+    background-color: $fundo;
+    // box-shadow: 0 0 15px #0004;
+}
+
+aside.menu-area {
+    background-color: $cor-sec;
+    // box-shadow: 
+    //     2px 0 10px 0 rgba(0, 0, 0, 0.12),
+    //     2px 0 15px 0 rgba (0, 0, 0, 0.09);
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 15px;
+    font-weight: 300;
+    height: 100%;
+    justify-content: space-between;
+}
+.menu a:hover {
+    background: linear-gradient(135deg, $grad2 0%, $grad3 100%);
+}
+
+div.palestrante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $fundo;
+}
