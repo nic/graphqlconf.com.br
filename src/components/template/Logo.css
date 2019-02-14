@@ -1,0 +1,169 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: "Play";
+  color: #a219c4;
+}
+
+.app {
+  color: #2E2E2E;
+  margin: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 100vh 1fr 40px;
+      grid-template-rows: 100vh 1fr 40px;
+      grid-template-areas: "logo" "content" "palestrante" "footer";
+  height: 100vh;
+  background-color: white;
+}
+
+header.logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+}
+
+aside.menu-area {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: menu;
+}
+
+main.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+}
+
+div.palestrante {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: palestrante;
+}
+
+footer.footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.app {
+  -ms-grid-rows: 100vh 70px 1fr 40px;
+      grid-template-rows: 100vh 70px 1fr 40px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      grid-template-areas: "logo" "menu" "content" "palestrante" "footer";
+}
+
+footer.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 25px;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+main > div {
+  background-color: white;
+}
+
+aside.menu-area {
+  background-color: #a219c4;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  font-weight: 300;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu a:hover {
+  background: linear-gradient(135deg, #a219c4 0%, #574bfd 100%);
+}
+
+div.palestrante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+header.logo {
+  background: -webkit-gradient(linear, right top, left top, from(#e535ab), color-stop(#a219c4), color-stop(#574bfd), to(#a4dfbc));
+  background: linear-gradient(270deg, #e535ab, #a219c4, #574bfd, #a4dfbc);
+  background-size: 800% 800%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-animation: AnimationName 17s ease infinite;
+  animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header.logo img {
+  padding-top: 40vh;
+  width: 60%;
+  margin: auto 40vh;
+}
+/*# sourceMappingURL=Logo.css.map */

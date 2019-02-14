@@ -2,20 +2,41 @@ import React from 'react'
 import Conteudo1 from './Conteudo1'
 import Conteudo2 from './Conteudo2'
 import Palestrante from './Palestrante'
+import Button from './Button'
+import Patrocinio from './Patrocinador'
 
 export default props =>
     <React.Fragment>
         <main className="content container-fluid">
-        <div className="row">
-        <div className="p-3 mt-3 col-md-12 col-lg-6">
-                <Conteudo1 />
-            </div>
-            <div className="p-3 mt-3 col-md-12 col-lg-6">
-                <Conteudo2 />
-            </div>
-        </div>
             <div className="row">
-            
+                <div className="p-3 mt-1 col-md-12 col-lg-6">
+                    <Conteudo1 />
+                </div>
+                <div className="p-3 mt-1 col-md-12 col-lg-6">
+                    <Conteudo2 />
+                </div>
             </div>
-    </main>
+            <div className="row">
+                <div className="col-12 text-center">
+                    <Palestrante />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-4"></div>
+                <div className="col-4 text-center">
+                    <br />
+                    <Button text="comprar ingresso" num={1} />
+                    <br />
+                    <Button text="patrocinar" num={2} />
+                    <br />
+                    <Button text="palestrar" num={3} />
+                </div>
+                <div className="col-4"></div>
+            </div>
+            <div className="row">
+                <div className="col-12 text-center">
+                    <Patrocinio />
+                </div>
+            </div>
+        </main>
     </React.Fragment>

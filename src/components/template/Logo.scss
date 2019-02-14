@@ -4,35 +4,62 @@ header.logo {
     // background-color: $cor-principal;
     // background-image: $gradiente;
     background: linear-gradient(270deg, #e535ab, #a219c4, #574bfd, #a4dfbc);
-background-size: 800% 800%;
+    background-size: 800% 800%;
 
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
     height: $logo-height;
-    
+
     -webkit-animation: AnimationName 17s ease infinite;
--moz-animation: AnimationName 17s ease infinite;
-animation: AnimationName 17s ease infinite;
-    
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 header.logo img {
     padding-top: 40vh;
     width: 60%;
