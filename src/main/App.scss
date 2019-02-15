@@ -73,31 +73,3 @@ footer.footer {
 main > div {
     background-color: $fundo;
 }
-
-aside.menu-area {
-    background-color: $cor-sec;
-    // box-shadow: 
-    //     2px 0 10px 0 rgba(0, 0, 0, 0.12),
-    //     2px 0 15px 0 rgba (0, 0, 0, 0.09);
-}
-
-.menu a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    align-items: center;
-    padding: 15px;
-    font-weight: 300;
-    height: 100%;
-    justify-content: space-between;
-}
-.menu a:hover {
-    background: linear-gradient(135deg, $grad2 0%, $grad3 100%);
-}
-
-div.palestrante {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $fundo;
-}

@@ -22,8 +22,8 @@ export default props =>
                 </div>
             </div>
             <div className="row">
-                <div className="col-4"></div>
-                <div className="col-4 text-center">
+                <div className="col-2 col-sm-3 col-ls-4"></div>
+                <div className="col-8 text-center col-sm-6 col-ls-4">
                     <br />
                     <Button text="comprar ingresso" num={1} />
                     <br />
@@ -31,7 +31,7 @@ export default props =>
                     <br />
                     <Button text="palestrar" num={3} />
                 </div>
-                <div className="col-4"></div>
+                <div className="col-2 col-sm-3 col-ls-4"></div>
             </div>
             <div className="row">
                 <div className="col-12 text-center">

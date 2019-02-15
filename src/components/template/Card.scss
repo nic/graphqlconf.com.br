@@ -9,6 +9,7 @@
     column-count: 4;
 }
 
+
 .cardp:hover .card-img-top {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
@@ -40,4 +41,22 @@
 .card-body {
     opacity: 1;
     text-shadow: $shadow;
+}
+
+
+@media (max-width: 576px){
+    .card-columns {
+        column-count: 3;
+    }
+
+    .card-img-top {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+
+    .cardp {
+        width: 15rem;
+        margin: 2px;
+    }
 }

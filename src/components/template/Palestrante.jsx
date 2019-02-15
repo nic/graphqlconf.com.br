@@ -17,6 +17,10 @@ export default props =>
                     <Card img={logo} nome="nome do nego" desc="test test test test test"/>
                     <Card img={logo} nome="nome do nego" desc="test test test test test"/>
                     <Card img={logo} nome="nome do nego" desc="test test test test test"/>
+                    <Card img={logo} nome="nome do nego" desc="test test test test test"/>
+                    <Card img={logo} nome="nome do nego" desc="test test test test test"/>
+                    <Card img={logo} nome="nome do nego" desc="test test test test test"/>
+                    <Card img={logo} nome="nome do nego" desc="test test test test test"/>
                 </div>
             </div>
         </div>
