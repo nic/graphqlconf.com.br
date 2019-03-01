@@ -13,6 +13,7 @@ $cont: 1;
         line-height:  200%;
         font-size: 2em;
         border-radius: 1em;
+        border: solid 4px $cor;
     }
 
     .bt#{$cont}:hover {

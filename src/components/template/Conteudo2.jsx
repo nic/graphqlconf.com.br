@@ -5,10 +5,7 @@ export default props =>
 <h1 className="text-center">
         Local
     </h1>
-    <p>idffjdngsdjfngjsdfngsdfngdfhgidshfigshdfighdfg
-        gdsfgsdfgfdhgfhgfhdfsghsgfhfdghsghfghdfhg
-        hdgfhdfghfghfdghahatehkfjbiodfjoierjgoijdag
-        gjdfgsdfgiajergiojdfogijdfojgdfiogjowuhgufhg
-    </p>
+    <p>O evento acontecerá em São Paulo no mês de Outubro.</p>
+    <p>Mais informações em breve.</p>
 </div>
     

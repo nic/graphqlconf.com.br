@@ -61,15 +61,5 @@ header.logo {
 }
 
 header.logo img {
-    padding-top: 40vh;
     width: 60%;
-    margin: auto 40vh;
-}
-
-@media (max-width: 576px){
-    header.logo img {
-        // padding-top: 40vh;
-        width: 60%;
-        margin: auto;
-    }
 }

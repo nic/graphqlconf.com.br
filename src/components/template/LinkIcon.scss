@@ -1,0 +1,26 @@
+.icon {
+    opacity: 0.4;
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+    
+}
+
+.icon:hover {
+    animation-name: fade;
+    animation-duration: .6s;
+    opacity: 0.9;
+    text-decoration: none;
+    color: black;
+}
+
+.imgi {
+    // height: 10vh;
+    width: 45px;
+
+}
+
+.small {
+    margin: auto 0.5%;
+    width: 20px;
+}
