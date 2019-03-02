@@ -24,3 +24,17 @@
     margin: auto 0.5%;
     width: 20px;
 }
+
+.link-text {
+    opacity: 0.4;
+    text-decoration: none;
+    color: black;
+}
+
+.link-text:hover {
+    animation-name: fade;
+    animation-duration: .6s;
+    opacity: 0.9;
+    text-decoration: none;
+    color: black;
+}

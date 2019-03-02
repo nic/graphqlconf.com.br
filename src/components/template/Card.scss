@@ -1,13 +1,14 @@
 @import '../../main/App.scss';
 
 .cardp {
-    width: 18rem;
-    margin: 3px;
+    // width: 25rem;
+    margin: 7px;
+    padding: 0.5%;
 }
 
-.card-columns {
-    column-count: 4;
-}
+// .card-columns {
+//     column-count: 4;
+// }
 
 
 .cardp:hover .card-img-top {
@@ -22,6 +23,7 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.7;
+    width: 100%;
 }
 
 @keyframes fade {
@@ -45,9 +47,9 @@
 
 
 @media (max-width: 576px){
-    .card-columns {
-        column-count: 3;
-    }
+    // .card-columns {
+    //     column-count: 3;
+    // }
 
     .card-img-top {
         -webkit-filter: grayscale(0%);
@@ -55,8 +57,8 @@
         opacity: 1;
     }
 
-    .cardp {
-        width: 15rem;
-        margin: 2px;
-    }
+    // .cardp {
+    //     width: 15rem;
+    //     margin: 2px;
+    // }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './LinkIcon.scss'
+import './Links.scss'
 
 export default props => {
 
@@ -14,7 +14,7 @@ export default props => {
     }
 
     return (
-        <a href={props.link} className={classA} ><img src={props.src} alt={props.title} className={classB} /> {props.placeholder}</a>
+        <a href={props.link} className={classA} target="_blank" rel="noopener noreferrer"><img src={props.src} alt={props.title} className={classB} /> {props.placeholder}</a>
     )
 }
 

@@ -10,6 +10,5 @@ export default props =>
         o cliente solicite do servidor uma estrutura de dados e o servidor retorne exatamente essa estrutura, 
         tendo um endpoint único. GraphQL não está atrelado a nenhuma linguagem, embora seja muito relacionado 
         ao JavaScript, já existem bibliotecas e frameworks para implementação para a grande maioria das linguagens.</p>
-    <p>React, TypeScript, Relay, Apollo, Node</p>
 </div>
     

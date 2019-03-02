@@ -9,16 +9,18 @@ import Comunidade from './Comunidade'
 export default props =>
     <React.Fragment>
         <main className="content container-fluid">
-            <div className="row">
-                <div className="p-3 mt-1 col col-md-12 col-lg-6">
+            <div className="row justify-content-center">
+                <div className="p-3 mt-1 col col-12 col-md-8 col-lg-6">
                     <Conteudo1 />
                 </div>
-                <div className="p-3 mt-1 col col-md-12 col-lg-6">
+            </div>
+            <div className="row justify-content-center">
+                <div className="p-3 mt-1 col col-12 col-md-8 col-lg-6">
                     <Conteudo2 />
                 </div>
             </div>
-            <div className="row">
-                <div className="col col-12 text-center">
+            <div className="row justify-content-center">
+                <div className="col col-12 text-center container-fluid">
                     <Palestrante />
                 </div>
             </div>

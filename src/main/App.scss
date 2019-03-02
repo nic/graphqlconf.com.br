@@ -8,7 +8,7 @@ $grad4: #a4dfbc;
 $fundo: white;
 $logo-height: 100vh;
 $menu-top-height: 70px;
-$footer-height: 40px;
+$footer-height: 200px;
 $cor-text: #2E2E2E;
 $gradiente: linear-gradient( to right, $grad1, $grad2, $grad3, $grad4 );
 $gradiente1: linear-gradient( to right, $grad4, $grad1, $grad2, $grad3 );
@@ -68,8 +68,13 @@ footer.footer {
     padding: 0 25px;
     background-color: $fundo;
     box-shadow: $shadow;
+    
 }
 
 main > div {
     background-color: $fundo;
+}
+
+footer ul {
+list-style-type: none;
 }
