@@ -1,18 +1,6 @@
 import React from 'react'
 import './Links.scss'
 
-export default props => {
+export default props =>
 
-    let classA = "link-text"
-    const small = props.small
-    // const placeholder=props.placeholder
-
-    if (small) {
-        classA = "link-text small";
-    }
-
-    return (
-        <a href={props.link} className={classA} target="_blank" rel="noopener noreferrer">{props.placeholder}</a>
-    )
-}
-
+        <a href={props.link} className={props.small ? "link-text small" : "link-text"} target={props.interno ? null : "_blank"} rel="noopener noreferrer">{props.placeholder}</a>
