@@ -10,7 +10,7 @@ export default props =>
         <h1>Patrocinio</h1>
         <div className="mt-4">
             {/* <LogoP nome="vagas" link="www.vagas.com.br" src={logo} /> */}
-            <p>Quer nos ajudar a fazer uma conferência incrivel? <LinkText link="mailto:graphqlbr@gmail.com" placeholder="Entre em contato com a gente" /></p>
+            <p>Quer nos ajudar a fazer uma conferência incrivel? <LinkText link="mailto:graphqlconfbr@gmail.com" placeholder="Entre em contato com a gente" /></p>
         </div>
     </div>
 </div>

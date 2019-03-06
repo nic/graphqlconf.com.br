@@ -23,6 +23,6 @@ export default props =>
             <IconA link="https://graphql.org/community/upcoming-events/" src={Graphql} title="Conference" placeholder="GraphQl Conferences" />
         </p>
         <p>
-            <IconA link="mailto:graphqlbr@gmail.com" src={Email} title="Email" small="true" placeholder="graphqlbr@gmail.com" />
+            <IconA link="mailto:graphqlconfbr@gmail.com" src={Email} title="Email" small="true" placeholder="graphqlconfbr@gmail.com" />
         </p>
     </div>
