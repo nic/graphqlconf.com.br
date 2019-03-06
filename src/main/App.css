@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, strong {
-  font-family: "Play";
+  font-family: 'Play', sans-serif;
   color: #a219c4;
 }
 
@@ -61,7 +61,11 @@ footer.footer {
       grid-template-rows: 100vh 70px 1fr 40px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "logo" "menu" "content" "palestrante" "footer";
+      grid-template-areas: "logo"
+ "menu"
+ "content"
+ "palestrante"
+ "footer";
 }
 
 footer.footer {

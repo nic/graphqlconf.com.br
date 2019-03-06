@@ -8,7 +8,7 @@ export default props =>
         <div className="row justify-content-center justify-content-between align-items-center">
             <div className="col col-4 text-center">
                 <ul>
-                    <li><LinkText link="https://" small="true" placeholder="Código de conduta" /></li>
+                    <li><LinkText link="#" small="true" placeholder="Código de conduta" /></li>
                     <li><LinkText link="#evento" small="true" interno="true" placeholder="Evento" /></li>
                     <li><LinkText link="#palestrante" small="true" interno="true" placeholder="Palestrantes" /></li>
                     <li><LinkText link="#ingressos" small="true" interno="true" placeholder="Ingressos" /></li>
@@ -19,7 +19,7 @@ export default props =>
             <div className="col col-4 text-center">
                 <small>Veja também:</small>
                 <br />
-                <IconA link="https://reactconf.com.br/" src={Reactconf} title="ReactConfBR" placeholder="React Conf BR" />
+                <IconA link="https://reactconf.com.br" src={Reactconf} title="ReactConfBR" placeholder="React Conf BR" />
                 <br />
                 <small className="text-black-50">Mais uma conferência da Átomos Nativos, Grafos e Retransmissões</small>
             </div>

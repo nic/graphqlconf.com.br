@@ -3,7 +3,7 @@ import './Card.scss'
 
 export default props => {
 
-  const buttonLink = <span class="d-inline-block" data-toggle="popover" data-content="Disabled popover" ><a href={props.link}
+  const buttonLink = <span className="d-inline-block" data-toggle="popover" data-content="Disabled popover" ><a href={props.link}
     className={props.desativo ? "btn btn-md btn-block disabled bt" + props.num : "btn btn-md btn-block bt" + props.num}
     target={props.interno ? null : "_blank"}
     rel="noopener noreferrer"
