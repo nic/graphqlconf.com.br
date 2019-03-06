@@ -1,4 +1,8 @@
-$font-main: 'Play';
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$font-main: 'Play', sans-serif;
+$font-text: 'Roboto', sans-serif;
 $cor-principal: #e535ab;
 $cor-sec: #a219c4;
 $grad1: #e535ab;
@@ -10,24 +14,30 @@ $logo-height: 100vh;
 $menu-top-height: 70px;
 $footer-height: 200px;
 $cor-text: #2E2E2E;
-$gradiente: linear-gradient( to right, $grad1, $grad2, $grad3, $grad4 );
-$gradiente1: linear-gradient( to right, $grad4, $grad1, $grad2, $grad3 );
-$gradiente2: linear-gradient( to right, $grad3, $grad4, $grad1, $grad2 );
-$gradiente3: linear-gradient( to right, $grad2, $grad3, $grad4, $grad1 );
+$gradiente: linear-gradient(to right, $grad1, $grad2, $grad3, $grad4);
+$gradiente1: linear-gradient(to right, $grad4, $grad1, $grad2, $grad3);
+$gradiente2: linear-gradient(to right, $grad3, $grad4, $grad1, $grad2);
+$gradiente3: linear-gradient(to right, $grad2, $grad3, $grad4, $grad1);
 
-$shadow:
-        0 2px 23px 0 rgba(0, 0, 0, 0.1),
-        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+$shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1),
+0 2px 49px 0 rgba(0, 0, 0, 0.06);
 
-*{
+* {
     box-sizing: border-box;
+    font-family: $font-text;
 }
-    
-::-webkit-scrollbar { 
-        display: none;
-      }
 
-h1, h2, h3, h4, h5, h6, strong {
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
     font-family: $font-main;
     color: $cor-sec;
 }
@@ -37,16 +47,14 @@ h1, h2, h3, h4, h5, h6, strong {
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 
-        $logo-height
-        1fr
-        $footer-height;
-        grid-template-areas: 
-            "logo"
-            "content"
-            "footer";
-        height: 100vh;
-        background-color: $fundo;
+    grid-template-rows:
+        $logo-height 1fr $footer-height;
+    grid-template-areas:
+        "logo"
+        "content"
+        "footer";
+    height: 100vh;
+    background-color: $fundo;
 }
 
 header.logo {
@@ -68,15 +76,15 @@ footer.footer {
     padding: 0 25px;
     background-color: $fundo;
     box-shadow: $shadow;
-    
+
 }
 
-main > div {
+main>div {
     background-color: $fundo;
 }
 
 footer ul {
-list-style-type: none;
+    list-style-type: none;
 }
 
 a a:hover {

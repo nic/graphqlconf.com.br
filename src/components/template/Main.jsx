@@ -37,7 +37,7 @@ export default props =>
                     <Patrocinio />
                 </div>
             </div>
-            <div className="row justify-content-center mt-4">
+            <div className="row justify-content-center mt-4" id="redes">
                 <div className="col col-8 col-sm-8 col-md-7 col-lg-6 text-center p-3" id="contato">
                     <Comunidade />
                 </div>

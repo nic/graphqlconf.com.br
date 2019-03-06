@@ -1,15 +1,23 @@
 import React from 'react'
 import './Card.scss'
+// import Button from './Button'
+import './Button.scss'
+
 
 export default props => {
+
 
   const buttonLink = <span className="d-inline-block" data-toggle="popover" data-content="Disabled popover" ><a href={props.link}
     className={props.desativo ? "btn btn-md btn-block disabled bt" + props.num : "btn btn-md btn-block bt" + props.num}
     target={props.interno ? null : "_blank"}
     rel="noopener noreferrer"
     role="button"
-    aria-disabled={props.desativo ? "true" : ""} >{props.botao}</a>
+    aria-disabled={props.desativo ? "true" : ""} 
+    // onClick={() => swal}>
+    >{props.botao}</a>
   </span>
+
+
 
 
   return (
