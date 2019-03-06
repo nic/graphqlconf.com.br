@@ -22,32 +22,5 @@ $cont: 1;
         background-color: $fundo;
     }
 
-    // .bt#{$cont}:hover {
-    //     // background-image: $gradiente;
-    //     color: white;
-    //     background-size: 800% 800%;
-    //     background: linear-gradient(270deg, #e535ab, #a219c4, #574bfd, #a4dfbc);
-    //     -webkit-animation: AnimationName 17s ease infinite;
-    //     -moz-animation: AnimationName 17s ease infinite;
-    //     animation: AnimationName 17s ease infinite;
-    // }
-
-    // button.bt#{$cont}:hover {
-    //     background: $gradiente;
-    //     color: white;
-    //     animation-name: fade-#{$cont};
-    // animation-duration: .6s;
-    // }
-    
-    // @keyframes fade-#{$cont} {
-    //     from {
-    //         background-color: $cor;
-    //     }
-    
-    //     to {
-    //         background: $gradiente;
-    //     }
-    // }
-
     $cont: $cont+1;
 }

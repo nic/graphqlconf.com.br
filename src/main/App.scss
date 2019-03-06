@@ -11,8 +11,10 @@ $grad3: #574bfd;
 $grad4: #a4dfbc;
 $fundo: white;
 $logo-height: 100vh;
+$logo-height-min: 60vh;
 $menu-top-height: 70px;
 $footer-height: 200px;
+$footer-height-max: 480px;
 $cor-text: #2E2E2E;
 $gradiente: linear-gradient(to right, $grad1, $grad2, $grad3, $grad4);
 $gradiente1: linear-gradient(to right, $grad4, $grad1, $grad2, $grad3);
@@ -21,6 +23,19 @@ $gradiente3: linear-gradient(to right, $grad2, $grad3, $grad4, $grad1);
 
 $shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1),
 0 2px 49px 0 rgba(0, 0, 0, 0.06);
+
+$grid-breakpoints: (
+    // Extra small screen / phone
+    xs: 0,
+    // Small screen / phone
+    sm: 576px,
+    // Medium screen / tablet
+    md: 768px,
+    // Large screen / desktop
+    lg: 992px,
+    // Extra large screen / wide desktop
+    xl: 1200px
+  );
 
 * {
     box-sizing: border-box;
@@ -85,8 +100,31 @@ main>div {
 
 footer ul {
     list-style-type: none;
+    padding-left: 0%;
 }
 
 a a:hover {
     text-decoration: none;
 }
+
+.recuo { 
+    text-indent:4em;
+}
+
+@media (max-width:map-get($grid-breakpoints, md)) {
+
+    .app {
+        grid-template-rows:
+            $logo-height-min 1fr $footer-height-max;
+    }
+
+    footer.footer {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 3%;
+        height: $footer-height-max;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+  }

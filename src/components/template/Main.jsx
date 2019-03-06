@@ -26,7 +26,7 @@ export default props =>
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col col-8 text-center col-sm-6 col-md-6 col-lg-4 mt-5" id="ingressos">
+                <div className="col col-10 text-center col-sm-8 col-md-6 col-lg-4 mt-5" id="ingressos">
                     {/* <br />
                     <Button text="comprar ingresso" num={1} /> */}
                     <Ingressos />
@@ -38,7 +38,7 @@ export default props =>
                 </div>
             </div>
             <div className="row justify-content-center mt-4" id="redes">
-                <div className="col col-8 col-sm-8 col-md-7 col-lg-6 text-center p-3" id="contato">
+                <div className="col col-12 col-sm-12 col-md-8 col-lg-6 text-center p-3" id="contato">
                     <Comunidade />
                 </div>
             </div>
