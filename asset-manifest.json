@@ -1,0 +1,23 @@
+{
+  "main.css": "/static/css/main.23dc43fb.chunk.css",
+  "main.js": "/static/js/main.74c373ab.chunk.js",
+  "main.js.map": "/static/js/main.74c373ab.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/css/2.6b3ba57e.chunk.css": "/static/css/2.6b3ba57e.chunk.css",
+  "static/js/2.98e0a999.chunk.js": "/static/js/2.98e0a999.chunk.js",
+  "static/js/2.98e0a999.chunk.js.map": "/static/js/2.98e0a999.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.3cde861c7af8e49701154554fccfe1ff.js": "/precache-manifest.3cde861c7af8e49701154554fccfe1ff.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.6b3ba57e.chunk.css.map": "/static/css/2.6b3ba57e.chunk.css.map",
+  "static/css/main.23dc43fb.chunk.css.map": "/static/css/main.23dc43fb.chunk.css.map",
+  "static/media/GraphQL.svg": "/static/media/GraphQL.b8204f6c.svg",
+  "static/media/Logo.png": "/static/media/Logo.f5b400ae.png",
+  "static/media/atomo.svg": "/static/media/atomo.efdcf23e.svg",
+  "static/media/email.svg": "/static/media/email.5d85746f.svg",
+  "static/media/facebook.svg": "/static/media/facebook.cb57dd6e.svg",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/slack.svg": "/static/media/slack.0e8e750a.svg",
+  "static/media/twitter.svg": "/static/media/twitter.f0b49672.svg"
+}
