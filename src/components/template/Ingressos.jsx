@@ -27,7 +27,7 @@ class Ingresso extends React.Component {
         </div>
       </a>
       
-      <Alert dismissible show={this.state.show} variant="info" onClick={handleHide}>
+      <Alert dismissible show={this.state.show} onClose={handleHide} variant="info" onClick={handleHide}>
       Acalme-se jovem! Quer comprar logo? Acompanhe-nos pelas <Alert.Link href="#redes">redes sociais</Alert.Link>.
         </Alert>
       </div>

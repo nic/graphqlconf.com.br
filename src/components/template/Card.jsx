@@ -17,7 +17,7 @@ class Card extends React.Component {
     const handleHide = () => this.setState({ show: false })
     const handleShow = () => this.setState({ show: true })
 
-    const buttonLink = <span className="d-inline-block" onClick={handleShow}><a href={this.props.link}
+    const buttonLink =  <span className="d-inline-block" onClick={ !this.state.show? handleShow : handleHide}><a href={this.props.link}
       className={this.props.desativo ? "btn btn-md btn-block disabled bt" + this.props.num : "btn btn-md btn-block bt" + this.props.num}
       target={this.props.interno ? null : "_blank"}
       rel="noopener noreferrer"
@@ -36,8 +36,9 @@ class Card extends React.Component {
             {this.props.botao ? buttonLink : null}
           </div>
         </div>
-        <div class="w-100"></div>
-        {this.props.alertmessenge ? <div className="row col col-8 justify-content-center"><Alert dismissible show={this.state.show} variant="info" onClick={handleHide}>{this.props.alertmessenge}<Alert.Link href={this.props.alerthref}>{this.props.alertlink}</Alert.Link></Alert></div> : null}
+        <div className="w-100"></div>
+        {this.props.alertmessenge ? <div className="row col col-8 justify-content-center">
+        <Alert dismissible show={this.state.show} closeLabel="Fechar" onClose={handleHide} variant="info" onClick={handleHide}>{this.props.alertmessenge}<Alert.Link href={this.props.alerthref}>{this.props.alertlink}</Alert.Link></Alert></div> : null}
       </div>
 
 
