@@ -3,9 +3,9 @@ import IconA from './LinkIcon'
 import Facebook from '../../assets/imgs/facebook.svg'
 import Twitter from '../../assets/imgs/twitter.svg'
 import Slack from '../../assets/imgs/slack.svg'
-// import Github from '../../assets/imgs/github.svg'
+import Github from '../../assets/imgs/github.svg'
 import Email from '../../assets/imgs/email.svg'
-import Graphql from '../../assets/imgs/GraphQL.svg'
+
 
 export default props =>
     <div>
@@ -16,11 +16,7 @@ export default props =>
             <IconA link="https://graphql-slack.now.sh" src={Slack} title="Slack" />
             <IconA link="https://fb.com/graphqlconf" src={Facebook} title="Facebook" />
             <IconA link="https://twitter.com/graphqlconfbr" src={Twitter} title="Twitter" />
-            {/*<IconA link="#" src={Github} title="Github" />*/}
-        </p>
-
-        <p>
-            <IconA link="https://graphql.org/community/upcoming-events/" src={Graphql} title="Conference" placeholder="GraphQl Conferences" />
+            <IconA link="https://github.com/graphql-brasil" src={Github} title="Github" />
         </p>
         <p>
             <IconA link="mailto:graphqlconfbr@gmail.com" src={Email} title="Email" small="true" placeholder="graphqlconfbr@gmail.com" />

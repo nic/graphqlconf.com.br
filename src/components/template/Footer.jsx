@@ -2,6 +2,7 @@ import React from 'react'
 import IconA from './LinkIcon'
 import LinkText from './Link'
 import Reactconf from '../../assets/imgs/atomo.svg'
+import Graphql from '../../assets/imgs/GraphQL.svg'
 
 export default props =>
     <footer className="footer justify-content-center">
@@ -32,6 +33,8 @@ export default props =>
                 <br />
                 <small className="text-black-50">Criado com: <LinkText link="https://github.com/facebookincubator/create-react-app/" placeholder="create-react-app" />
                 </small>
+                <br/>
+                <IconA link="https://graphql.org/community/upcoming-events/" src={Graphql} title="Conference" small="true" placeholder="GraphQl Conferences" />
             </div>
         </div>
 
